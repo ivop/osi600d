@@ -1,0 +1,69 @@
+Fixed errors:
+=============
+
+(at <location> refers to the original schematics)
+
+SHEET 1
+
+* At 1C3 the LS04 inverter is missing its designator. By inspecting the PCB
+  it turns out to be U18.
+* ~{MCS} is mislabeled as MCS.
+* J1 pin 11 is not connected. On the PCB it has a solder pad next to the
+  socket.
+
+SHEET 2
+
+* At 2A4, U15 LS02 is drawn as an AND with inverted inputs, not a NOR port.
+  Logically, they are equivalent.
+
+SHEET 3
+
+* D9 and D10 have no value. Assembly instructions BOM lists 1N914.
+* C65 at 3D3, has no value. Assembly Instructions, page 39, capacitor (C)
+  is 150pF.
+* Signal name 499.2 kHz does not match (3.932160*2)/16 = 491.52 kHz
+
+SHEET 4
+
+* U42 LS165 has the QH output pin mislabeled as QA.
+* U15 LS02 at 4C2 is drawn as a NAND, but the LS02 is a NOR port. It is wired
+  as an inverter, so logically it is identical (00->1, 11->0).
+
+SHEET 5
+
+* It seems there is a line missing between the positive side of C2 and C3.
+* C1, C2, and C3 should be polarized.
+
+Duplicate components:
+=====================
+
+R32     at 3D1 (1K) and 3B2 (1K). ---Renamed the one at 3B2 to R132.---
+        Turned out the "R132" circuit connects to the _same_ R32 on the PCB.
+R73     at 5B3 (68K) and 3A3 (470). Renamed the one near the LED to R173.
+R74     at 2D1 (390) and 5B3 (510). Renamed the one at 2D1 to R174.
+R86     at 3A4 (1K) and 3D1 (1K) and 5C3 (510).
+        ---Renamed the 3D1 one to R186.--- Turned out "R186" connects to the
+        same net on the PCB. There's only one, even though two are drawn.
+        Renamed the 5C3 one to R286.
+
+Open issues:
+============
+
+* Sheet 5, D30, D31, and D32 have no value. Assumed 1N914.
+* Sheet 5, C3 has no value. Assumed 33uF.
+
+
+Assembly Instructions:
+======================
+
+* Page 33: D & I are swapped.
+
+Klyball PCB:
+============
+
+* BK0 is not connected to U15
+* !BK1 is not connected to anything
+
+* Not an error per se, but the selection of positive or negative CE lines
+  to the BASIC ROMs is completely gone. The inverters are not even connected.
+  Not sure if this on the original 600D PCBs or not.
