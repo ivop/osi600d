@@ -4110,7 +4110,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e0fc54f9-8a4e-4cbc-aa39-f700208efd19)
   )
-  (text "* CE3/Vpp (21) N.C." (at 120.65 29.21 0)
+  (text "* CE3/Vpp (21) +5V" (at 120.65 29.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e9f41691-2d34-4ab8-b325-e435e88b8dc1)
   )

@@ -5668,7 +5668,7 @@
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 18239104-0617-4ecf-92d6-cfcf626188f3)
   )
-  (text "* Original ROM:\n18,19,21 --> +5V\n\n* Shown: [2716]\n18,20 --> GND\n21 --> +5V"
+  (text "* Original ROM:\n18,20,21 --> +5V\n\n* Shown: [2716]\n18,20 --> GND\n21 --> +5V"
     (at 92.71 194.31 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1b44a1fd-5c76-4ec9-b847-5f1e1a71e94d)
