@@ -546,6 +546,9 @@
     (path "/5e601c23-3bd8-4f78-88fd-25be24347d4d/e42e6987-ba7d-48e0-a67f-42f4b3c8e80f"
       (reference "#PWR0145") (unit 1) (value "GND") (footprint "")
     )
+    (path "/855a5a34-ec7d-4c08-b216-57b8bffc4f64/7955d4f0-53f7-4cf7-b407-fa7d02d83848"
+      (reference "#PWR0146") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5e601c23-3bd8-4f78-88fd-25be24347d4d/250e5dc6-70f7-4a6e-8876-524af5b69bdc"
       (reference "C1") (unit 1) (value "10mF") (footprint "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm")
     )
@@ -881,6 +884,9 @@
     )
     (path "/5e601c23-3bd8-4f78-88fd-25be24347d4d/14bd4efb-f471-4ac6-865a-a60d9f817d90"
       (reference "J101") (unit 1) (value "Conn_01x02_Male") (footprint "OSI600D:Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical")
+    )
+    (path "/855a5a34-ec7d-4c08-b216-57b8bffc4f64/a3c3d019-d0ce-4d9d-94a4-12394173659e"
+      (reference "J102") (unit 1) (value "USB") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/94298d03-8c3f-467f-99b9-81b2515582ee/9c7e20de-3678-4ad0-8875-c89bb77e2050"
       (reference "JP1") (unit 1) (value "Jumper_2_Open") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
