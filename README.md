@@ -10,3 +10,5 @@
 * PCB uses Cherry MX key switches.
 * 4-pin or 5-pin headers for USB-C or Micro USB breakout boards for power supply (e.g. Raspberry Pi 3A PS).
 * Use [ramtest2114](https://github.com/ivop/ramtest2114) to test RAM chips acquired from Ali.
+
+Can be paired with the [Ohio Scientific 610B Floppy Controller and Memory Expansion](https://github.com/ivop/osi610b).
